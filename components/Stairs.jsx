@@ -12,13 +12,37 @@ const stairAnimation = {
     },
 };
 
-const Stairs = () => {
-  return (
-    <div>
 
-
-    </div>
-  )
+// calculate the reserve index for stoggred dekay
+const reserveIndex = (index)=>{
+  const totalSteps = 6; //number of class
+  return totalSteps - index - 1;
 }
+
+const Stairs = () => {
+  return(
+    <>
+
+    {/* render 6 motion div, each representing a step of the stairs. */}
+    {[...Array(6)].map((_, index) => {
+      return (
+      <motion.div
+      key={index}
+      variants={stairAnimation}
+      initial="initial"
+      animate="animate"
+      exit="exit"
+      transition={{ 
+        duration: 0.4,
+        ease: "easeInOut",
+        delay: reserveIndex(index) * 0.1,
+         }}
+         className="h-full w-full bg-white relative"
+         />
+        );
+    })}
+    </>
+  )
+};
 
 export default Stairs
