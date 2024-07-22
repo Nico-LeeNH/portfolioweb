@@ -1,6 +1,5 @@
 import { animate, motion } from "framer-motion"
 
-
 const stairAnimation = {
     initial:{
         top: "0%",
@@ -15,10 +14,10 @@ const stairAnimation = {
 
 const Stairs = () => {
   return (
-    <>
+    <div>
 
 
-    </>
+    </div>
   )
 }
 
