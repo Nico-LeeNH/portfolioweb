@@ -1,6 +1,10 @@
 import { JetBrains_Mono as JetBrainsMonoFont } from "next/font/google";
 import "./globals.css";
+
+//components
 import Header from "@/components/Header";
+import PageTransition from "@/components/PageTransition";
+import StairTransition from "@/components/StairTransition";
 
 // Pastikan bahwa pemanggilan pemuat font dilakukan di scope modul dan diberikan ke konstanta.
 const jetBrainsMono = JetBrainsMonoFont({ 
@@ -19,7 +23,11 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={jetBrainsMono.variable}>
         <Header />
+        <StairTransition />
+        <PageTransition>
+
         {children}
+        </PageTransition>
       </body>
     </html>
   );
