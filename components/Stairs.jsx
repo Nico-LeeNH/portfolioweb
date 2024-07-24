@@ -16,7 +16,7 @@ const stairAnimation = {
 // calculate the reserve index for stoggred dekay
 const reserveIndex = (index)=>{
   const totalSteps = 6; //number of class
-  return totalSteps - index - 1;
+  return totalSteps - index - 1
 }
 
 const Stairs = () => {
@@ -39,7 +39,7 @@ const Stairs = () => {
          }}
          className="h-full w-full bg-white relative"
          />
-        );
+        )
     })}
     </>
   )
