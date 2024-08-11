@@ -23,8 +23,8 @@ const about ={
     //   fieldValue: "3+ Years"
     // },
     {
-      fieldName: "Country",
-      fieldValue: "Indonesia"
+      fieldName: "Hobby",
+      fieldValue: "Fotografer, Chess"
     },
     {
       fieldName: "Email",
