@@ -1,7 +1,7 @@
 "use client"
 
 import { Icon } from 'lucide-react'
-import {FaHtml5, FaCss3, FaJs, FaReact, FaFigma, FaNodeJs} from 'react-icons/fa'
+import {FaHtml5, FaCss3, FaJs, FaReact, FaFigma, FaNodeJs, FaLaravel, FaVuejs, FaJava} from 'react-icons/fa'
 import {SiTailwindcss, SiNextdotjs} from 'react-icons/si'
 
 
@@ -91,6 +91,22 @@ const skills ={
     {
       icon: <FaCss3 />,
       name: "CSS"
+    },
+    {
+      icon: <FaLaravel />,
+      name: "Laravel"
+    },
+    {
+      icon: <FaVuejs />,
+      name: "Vue Js"
+    },
+    {
+      icon: <FaReact />,
+      name: "React and Next.js"
+    },
+    {
+      icon: <FaJava />,
+      name: "Java"
     },
     
   ],
