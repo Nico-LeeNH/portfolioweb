@@ -28,7 +28,7 @@ const about ={
     },
     {
       fieldName: "Email",
-      fieldValue: "nathanaelhandokonico@gmail.com"
+      fieldValue: "new.nikolee2007@gmail.com"
     },
     // {
     //   fieldName: "Freelance",
