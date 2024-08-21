@@ -11,7 +11,7 @@ const info = [
   {
     icon: <FaPhoneAlt />,
     title: "Phone",
-    description: "(+40) 321 654 876",
+    description: "081555992978",
   },
   {
     icon: <FaEnvelope />,
@@ -21,7 +21,7 @@ const info = [
   {
     icon: <FaMapMarkedAlt />,
     title: "Address",
-    description: "Code Corner, Tech Town 13579",
+    description: "Jl. Danau Gita C4F8, Malang, Jawa Timur 65138",
   },
 ]
 
