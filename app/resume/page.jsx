@@ -49,17 +49,18 @@ const experience ={
     {
       company: "SIDIGS",
       position: "Full Stack Developer",
-      duration: "Juli 2024 - Present",
+      duration: "Juli 2024 - Present(Freelance)",
+      
     },
     {
       company: "SIDIGS",
       position: "Wordpress Developer",
-      duration: "April 2024 - Present",
+      duration: "April 2024 - July 2024(Freelance)",
     },
     {
       company: "Jagoan Hosting",
       position: "Full Stack Developer",
-      duration: "2022 - Present",
+      duration: "2022 - Present(internship)",
     },
   ],
 }

@@ -1,13 +1,13 @@
 import Link from "next/link";
 
-import { FaGithub, FaLinkedinIn, FaYoutube, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaYoutube, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 
 const socials = [
-    { icon: <FaGithub />, path: ""},
-    { icon: <FaLinkedinIn />, path: ""},
-    { icon: <FaYoutube />, path: ""},
-    { icon: <FaTwitter />, path: ""},
+    { icon: <FaGithub />, path: "https://github.com/Nico-LeeNH"},
+    { icon: <FaLinkedin />, path: "https://www.linkedin.com/in/nico-lee-nathanael-handoko-a533b4288/"},
+    { icon: <FaInstagram />, path: "https://www.instagram.com/nicoleenathanaelh/"},
+    { icon: <FaTwitter />, path: "https://x.com/LeeNh186723"},
 ];
 
 

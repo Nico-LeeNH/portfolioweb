@@ -9,7 +9,7 @@ const services = [
     num: "01",
     title: "Web Development",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet repellat molestiae sapiente",
-    href: "",
+    href: "https://github.com/Nico-LeeNH",
   },
   {
     num: "02",
@@ -21,7 +21,7 @@ const services = [
     num: "03", // Updated number
     title: "UI/UX Design",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet repellat molestiae sapiente",
-    href: "",
+    href: "https://www.figma.com/design/cATD704148ING69kadauxc/Nutur?node-id=0-1&t=j0XKudmd3AeDCSLf-1",
   },
 ];
 
