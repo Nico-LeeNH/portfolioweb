@@ -6,7 +6,7 @@ import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
-import { BsArrowUp, BsArrowUpRight, BsGithub } from "react-icons/bs";
+import { BsArrowUp, BsArrowUpRight, BsFile, BsGithub, BsUsbDrive } from "react-icons/bs";
 
 import{
   Tooltip,
@@ -24,40 +24,40 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "frontend",
+    category: "BMC Competition",
     title: "project 1",
     description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit minus nisi corrupti numquam dolorem, odio nulla temporibus eligendi officiis placeat neque.",
-    stack:[{name: "Html 5"}, {name: "Css 3"}, {
-      name: "javascript"
+    stack:[{name: "Nico Lee N.H"}, {name: "Pandhu A.M"}, {
+      name: "Naia R.A"
     }],
-    image: '/assets/work/thumb1.png',
+    image: '/assets/Sertifikat/BMC UNTAG.jpg',
     live: "",
-    github: "",
+    github: "https://drive.google.com/drive/folders/13ytWoUyc5McWM_yI0t8hAG-SBV7aFj7Z?usp=sharing",
   },
   {
     num: "02",
-    category: "frontend",
+    category: "Moklet Idea Challenge",
     title: "project 1",
     description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit minus nisi corrupti numquam dolorem, odio nulla temporibus eligendi officiis placeat neque.",
-    stack:[{name: "Html 5"}, {name: "Css 3"}, {
-      name: "javascript"
+    stack:[{name: "Nico Lee N.H"}, {name: "Sulthan Rafi A.B"}, {
+      name: "Sabrina"}, {name: "Asya"
     }],
-    image: '/assets/work/thumb2.png',
-    live: "",
-    github: "",
+    image: '/assets/Sertifikat/MIC.jpg',
+    live: "https://drive.google.com/file/d/1MggiXGjV-4eGFd1JN89xB4YTlxBTnXML/view?usp=sharing",
+    github: "https://drive.google.com/drive/folders/13ytWoUyc5McWM_yI0t8hAG-SBV7aFj7Z?usp=sharing",
   },
   {
     num: "03",
-    category: "frontend",
+    category: "Hackathon",
     title: "project 1",
     description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit minus nisi corrupti numquam dolorem, odio nulla temporibus eligendi officiis placeat neque.",
-    stack:[{name: "Html 5"}, {name: "Css 3"}, {
-      name: "javascript"
+    stack:[{name: "Nico Lee N.H"}, {name: "Pandhu A.M"}, {
+      name: "Asfina Andhini"
     }],
-    image: '/assets/work/thumb3.png',
+    image: '/assets/Sertifikat/Hackathon Sertif.jpg',
     live: "",
-    github: "",
-  }
+    github: "https://drive.google.com/drive/folders/13ytWoUyc5McWM_yI0t8hAG-SBV7aFj7Z?usp=sharing",
+  },
 ]
 
 const Certificate = () => {
@@ -84,7 +84,7 @@ const Certificate = () => {
                 {project.num}
               </div>
               {/*project category*/}
-              <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">{project.category} project</h2>
+              <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">{project.category} Certificate</h2>
               {/*project description*/}
               <p className="text-white/60">{project.description}</p>
               {/*stack*/}
@@ -110,7 +110,7 @@ const Certificate = () => {
                       <BsArrowUpRight className="text-white text-3xl group-hover:text-accent"/>
                       </TooltipTrigger>
                       <TooltipContent>
-                        <p>Live Project</p>
+                        <p>Live Certificate</p>
                       </TooltipContent>
                     </Tooltip>
                   </TooltipProvider>
@@ -120,10 +120,10 @@ const Certificate = () => {
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
                       <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
-                      <BsGithub className="text-white text-3xl group-hover:text-accent"/>
+                      <BsFile className="text-white text-3xl group-hover:text-accent"/>
                       </TooltipTrigger>
                       <TooltipContent>
-                        <p>Github repository</p>
+                        <p>Drive File</p>
                       </TooltipContent>
                     </Tooltip>
                   </TooltipProvider>
