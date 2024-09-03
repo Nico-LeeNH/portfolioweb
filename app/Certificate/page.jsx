@@ -52,9 +52,29 @@ const projects = [
     title: "project 1",
     description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit minus nisi corrupti numquam dolorem, odio nulla temporibus eligendi officiis placeat neque.",
     stack:[{name: "Nico Lee N.H"}, {name: "Pandhu A.M"}, {
-      name: "Asfina Andhini"
+      name: "Asfina Andini"
     }],
     image: '/assets/Sertifikat/Hackathon Sertif.jpg',
+    live: "",
+    github: "https://drive.google.com/drive/folders/13ytWoUyc5McWM_yI0t8hAG-SBV7aFj7Z?usp=sharing",
+  },
+  {
+    num: "04",
+    category: "Database",
+    title: "project 1",
+    description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit minus nisi corrupti numquam dolorem, odio nulla temporibus eligendi officiis placeat neque.",
+    stack:[{name: "Nico Lee Nathanael Handoko"}],
+    image: '/assets/Sertifikat/Databases_page-0001.jpg',
+    live: "",
+    github: "https://drive.google.com/drive/folders/13ytWoUyc5McWM_yI0t8hAG-SBV7aFj7Z?usp=sharing",
+  },
+  {
+    num: "05",
+    category: "Teaching Factory Program",
+    title: "project 1",
+    description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit minus nisi corrupti numquam dolorem, odio nulla temporibus eligendi officiis placeat neque.",
+    stack:[{name: "Nico Lee Natahanael Handoko"}],
+    image: '/assets/Sertifikat/Nico Lee Nathanael Handoko_JH_page-0001.jpg',
     live: "",
     github: "https://drive.google.com/drive/folders/13ytWoUyc5McWM_yI0t8hAG-SBV7aFj7Z?usp=sharing",
   },

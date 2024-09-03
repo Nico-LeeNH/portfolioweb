@@ -26,10 +26,10 @@ const links = [
         name: 'Certificate',
         path: '/Certificate'
     },
-    {
-        name: 'contact',
-        path: '/contact'
-    },
+    // {
+    //     name: 'contact',
+    //     path: '/contact'
+    // },
 ]
 
 
