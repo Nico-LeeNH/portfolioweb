@@ -16,7 +16,7 @@ const about ={
     },
     {
       fieldName: "Phone",
-      fieldValue: "+6281-55599-2978"
+      fieldValue: "+6281555992978"
     },
     // {
     //   fieldName: "Experience",
@@ -59,7 +59,7 @@ const experience ={
     },
     {
       company: "Jagoan Hosting",
-      position: "Full Stack Developer",
+      position: "Student Wordpress Developer",
       duration: "2022 - Present(internship)",
     },
   ],

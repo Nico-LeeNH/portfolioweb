@@ -17,9 +17,9 @@ const Photo = () => {
           opacity: 1,
           transition:{delay:2.4, duration: 0.4, ease: "easeInOut"},
          }}
-        className="w-[295px] h-[295px] xl:w-[485px] xl:h-[485px] mix-blend-lighten absolute left-[8px]">
+        className="w-[295px] h-[295px] xl:w-[485px] xl:h-[485px] mix-blend-lighten left-[8px]">
           <Image
-            src="/assets/Photo Porfile.png"
+            src="/assets/Profile.jpeg"
             priority
             quality={100}
             fill
@@ -28,7 +28,7 @@ const Photo = () => {
             />
           </motion.div>
 
-          {/*circle*/}
+          {/* circle
           <motion.svg 
           className="w-[300px] xl:w-[506px] h-[300px] xl:h-[506px]"
           fill="transparent"
@@ -56,7 +56,7 @@ const Photo = () => {
             >
 
             </motion.circle>
-          </motion.svg>
+          </motion.svg> */}
           
           </motion.div>
     </div>
