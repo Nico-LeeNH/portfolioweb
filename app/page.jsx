@@ -20,7 +20,7 @@ const Home = () => {
           </h1>
 
           <p className="max-w-[500px] mb-9 text-white">
-            I student at SMK Telkom Malang
+            I'm a student at SMK Telkom Malang
           </p>
 
           {/* btn and socials */}
