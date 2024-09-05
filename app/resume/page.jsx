@@ -8,7 +8,7 @@ import {SiTailwindcss, SiNextdotjs} from 'react-icons/si'
 // about
 const about ={
   title: "About me",
-  description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  description: "",
   info: [
     {
       fieldName: "Name",
@@ -44,7 +44,7 @@ const about ={
 const experience ={
   icon: "/assets/resume/badge.svg",
   title: "My experience",
-  description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  description: "Berikut adalah beberapa pengalaman saya.",
   items:[
     {
       company: "SIDIGS",
@@ -69,7 +69,7 @@ const experience ={
 const education ={
   icon: "/assets/resume/cap.svg",
   title: "My education",
-  description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  description: "Saya bersekolah di SMK Telkom Malang.",
   items:[
     {
       institution: "SMK Telkom Malang",
@@ -83,7 +83,7 @@ const education ={
 
 const skills ={
   title: "My skill",
-  description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  description: "Berikut adalah beberapa bahasa pemrograman yang saya gunakan sebagai web developer.",
   skillList:[
     {
       icon: <FaHtml5 />,
