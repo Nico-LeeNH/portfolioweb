@@ -24,15 +24,15 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "frontend",
+    category: "MedTrack",
     title: "project 1",
     description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit minus nisi corrupti numquam dolorem, odio nulla temporibus eligendi officiis placeat neque.",
     stack:[{name: "Html 5"}, {name: "Css 3"}, {
       name: "javascript"
     }],
-    image: '/assets/work/thumb1.png',
+    image: '/assets/work/MedShop.png',
     live: "",
-    github: "",
+    github: "https://github.com/Nico-LeeNH/MedShop/tree/3a6e1f6354b66ec2f5591616f45ff7ce8b6ef4c7/Medshop/Medtrack",
   },
   {
     num: "02",
