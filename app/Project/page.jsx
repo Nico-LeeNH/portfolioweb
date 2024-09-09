@@ -58,35 +58,32 @@ const projects = [
   },
   {
     num: "03",
-    category: "frontend",
+    category: "Sekolah Anak Saleh",
     title: "project 1",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit minus nisi corrupti numquam dolorem, odio nulla temporibus eligendi officiis placeat neque.",
+      "Project Yayasan Sekolah Anak Saleh berfungsi untuk memberikan berbagai informasi sekolah seperti ppdb, agenda, program, dll.",
     stack: [
-      { name: "Html 5" },
-      { name: "Css 3" },
-      {
-        name: "javascript",
-      },
+      { name: "Wordpress" }
+      
     ],
-    image: "/assets/work/thumb2.png",
-    live: "",
+    image: "/assets/work/MKKS.png",
+    live: "https://sekolahanaksaleh.sch.id/",
     github: "",
   },
   {
     num: "04",
-    category: "frontend",
+    category: "Perpus",
     title: "project 1",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit minus nisi corrupti numquam dolorem, odio nulla temporibus eligendi officiis placeat neque.",
     stack: [
-      { name: "Html 5" },
-      { name: "Css 3" },
+      { name: "Html" },
+      { name: "Css" },
       {
-        name: "javascript",
+        name: "Laravel",
       },
     ],
-    image: "/assets/work/thumb3.png",
+    image: "/assets/work/Perpus.png",
     live: "",
     github: "",
   },
@@ -196,7 +193,6 @@ const Project = () => {
                   </SwiperSlide>
                 );
               })}
-
               {/*slider button*/}
               <WorkSliderBtns
                 containerStyles="flex gap-2 absolute right-0 bottom-[calc(50%_-_22px)] xl:bottom-0 z-20 w-full justify-between xl:w-max xl:justify-none"

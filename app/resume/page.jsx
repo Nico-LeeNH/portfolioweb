@@ -86,20 +86,16 @@ const skills ={
   description: "Berikut adalah beberapa bahasa pemrograman yang saya gunakan sebagai web developer.",
   skillList:[
     {
-      icon: <FaHtml5 />,
-      name: "html 5"
-    },
-    {
-      icon: <FaCss3 />,
-      name: "CSS"
-    },
-    {
       icon: <FaLaravel />,
       name: "Laravel"
     },
     {
       icon: <FaVuejs />,
       name: "Vue Js"
+    },
+    {
+      icon: <FaJs />,
+      name: "Javascript"
     },
     {
       icon: <FaReact />,
