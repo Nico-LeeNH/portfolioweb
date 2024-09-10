@@ -22,7 +22,7 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "Web Portfolio",
+    category: "Portfolio",
     title: "project 1",
     description:
       "Ini adalah Web Portfolio saya menggunakan React, Next.js dan Talwind CSS",
@@ -33,7 +33,7 @@ const projects = [
         name: "Talwind CSS",
       },
     ],
-    image: "/assets/work/image.png",
+    image: "/assets/work/image1.png",
     live: "https://nicolee.vercel.app",
     github: "https://github.com/Nico-LeeNH/portfolioweb",
   },
@@ -42,7 +42,7 @@ const projects = [
     category: "MedTrack",
     title: "project 1",
     description:
-      "Project ini dibangun menggunakan Bootstrap, CSS, PHP, dan JavaScript. MedTrack berfungsi untuk memantau kesehatan pasien dengan menyediakan platform yang mudah digunakan dan intuitif.",
+      "MedTrack berfungsi untuk memantau kesehatan pasien dengan menyediakan platform yang mudah digunakan dan intuitif.",
     stack: [
       { name: "Bootstrap" },
       { name: "CSS" },
@@ -72,20 +72,17 @@ const projects = [
   },
   {
     num: "04",
-    category: "Perpus",
+    category: "Perpustakaan",
     title: "project 1",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit minus nisi corrupti numquam dolorem, odio nulla temporibus eligendi officiis placeat neque.",
+      "Ini adalah project CRUD dan transaksi Perpustakaan",
     stack: [
-      { name: "Html" },
-      { name: "Css" },
-      {
-        name: "Laravel",
-      },
+      { name: "Vue.js" },
+      { name: "Laravel" },
     ],
-    image: "/assets/work/Perpus.png",
+    image: "/assets/work/image.png",
     live: "",
-    github: "",
+    github: "https://github.com/Nico-LeeNH/PerpusOnline.git",
   },
 ];
 
