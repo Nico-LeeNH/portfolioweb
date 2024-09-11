@@ -84,6 +84,20 @@ const projects = [
     live: "",
     github: "https://github.com/Nico-LeeNH/PerpusOnline.git",
   },
+  {
+    num: "05",
+    category: "E-REPOM",
+    title: "project 5",
+    description:
+      "Aplikasi E-REPOM memudahkan mahasiswa dalam mengajukan surat rekomendasi untuk penelitian, observasi, dan magang. Dengan sistem pengisian form yang sederhana dan efisien, mahasiswa dapat dengan cepat mengirimkan permohonan sesuai kebutuhan akademis dan profesional mereka.",
+    stack: [
+      { name: "Flutter" },
+      { name: "Laravel" },
+    ],
+    image: "/assets/work/E-REPOM.jpeg",
+    live: "",
+    github: "https://github.com/ocin14/Aplikasi-Mahasiswa",
+  },
 ];
 
 const Project = () => {
