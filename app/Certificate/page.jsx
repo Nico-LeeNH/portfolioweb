@@ -26,7 +26,7 @@ const projects = [
     num: "01",
     category: "BMC Competition",
     title: "project 1",
-    description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit minus nisi corrupti numquam dolorem, odio nulla temporibus eligendi officiis placeat neque.",
+    description: "",
     stack:[{name: "Nico Lee N.H"}, {name: "Pandhu A.M"}, {
       name: "Naia R.A"
     }],
@@ -38,9 +38,9 @@ const projects = [
     num: "02",
     category: "Moklet Idea Challenge",
     title: "project 1",
-    description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit minus nisi corrupti numquam dolorem, odio nulla temporibus eligendi officiis placeat neque.",
-    stack:[{name: "Nico Lee N.H"}, {name: "Sulthan Rafi A.B"}, {
-      name: "Sabrina"}, {name: "Asya"
+    description: "",
+    stack:[{name: "Nico L."}, {name: "Sulthan R."}, {
+      name: "Sabrina C."}, {name: "Rizkya D."
     }],
     image: '/assets/Sertifikat/MIC.jpg',
     live: "https://drive.google.com/file/d/1MggiXGjV-4eGFd1JN89xB4YTlxBTnXML/view?usp=sharing",
@@ -50,7 +50,7 @@ const projects = [
     num: "03",
     category: "Hackathon",
     title: "project 1",
-    description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit minus nisi corrupti numquam dolorem, odio nulla temporibus eligendi officiis placeat neque.",
+    description: "",
     stack:[{name: "Nico Lee N.H"}, {name: "Pandhu A.M"}, {
       name: "Asfina Andini"
     }],
@@ -62,8 +62,8 @@ const projects = [
     num: "04",
     category: "Database",
     title: "project 1",
-    description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit minus nisi corrupti numquam dolorem, odio nulla temporibus eligendi officiis placeat neque.",
-    stack:[{name: "Nico Lee Nathanael Handoko"}],
+    description: "",
+    stack:[{name: ""}],
     image: '/assets/Sertifikat/Databases_page-0001.jpg',
     live: "",
     github: "https://drive.google.com/drive/folders/13ytWoUyc5McWM_yI0t8hAG-SBV7aFj7Z?usp=sharing",
@@ -72,9 +72,19 @@ const projects = [
     num: "05",
     category: "Teaching Factory Program",
     title: "project 1",
-    description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit minus nisi corrupti numquam dolorem, odio nulla temporibus eligendi officiis placeat neque.",
-    stack:[{name: "Nico Lee Natahanael Handoko"}],
+    description: "",
+    stack:[{name: ""}],
     image: '/assets/Sertifikat/Nico Lee Nathanael Handoko_JH_page-0001.jpg',
+    live: "",
+    github: "https://drive.google.com/drive/folders/13ytWoUyc5McWM_yI0t8hAG-SBV7aFj7Z?usp=sharing",
+  },
+  {
+    num: "06",
+    category: "Chess Competition",
+    title: "project 1",
+    description: "",
+    stack:[{name: ""}],
+    image: '/assets/Sertifikat/NICO LEE NATHANAEL H(TCC)_page-0001.jpg',
     live: "",
     github: "https://drive.google.com/drive/folders/13ytWoUyc5McWM_yI0t8hAG-SBV7aFj7Z?usp=sharing",
   },
