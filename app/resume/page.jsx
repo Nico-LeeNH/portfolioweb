@@ -12,11 +12,11 @@ const about ={
   info: [
     {
       fieldName: "Name",
-      fieldValue: "Nico Lee "
+      fieldValue: "Nico Lee Nathanael Handoko"
     },
     {
       fieldName: "Phone",
-      fieldValue: "+6281555992978"
+      fieldValue: "+6287884607700"
     },
     // {
     //   fieldName: "Experience",
@@ -24,7 +24,7 @@ const about ={
     // },
     {
       fieldName: "Hobby",
-      fieldValue: "Fotografer, Chess"
+      fieldValue: "Chess"
     },
     {
       fieldName: "Email",
@@ -36,7 +36,7 @@ const about ={
     // },
     {
       fieldName: "Language",
-      fieldValue: "Indo, English, Chinese"
+      fieldValue: "Indonesia, English, Chinese"
     }
    ]
 }
@@ -49,32 +49,36 @@ const experience ={
     {
       company: "SIDIGS",
       position: "Full Stack Developer",
-      duration: "Juli 2024 - Present(Freelance)",
+      duration: "Juli - Oktober 2024(Internship)",
       
     },
     {
       company: "SIDIGS",
       position: "Wordpress Developer",
-      duration: "April 2024 - July 2024(Freelance)",
+      duration: "April - Oktober 2024(Internship)",
     },
     {
       company: "Jagoan Hosting",
       position: "Student Wordpress Developer",
-      duration: "2022 - Present(internship)",
+      duration: "Januari 2024",
     },
   ],
 }
 
-
 const education ={
   icon: "/assets/resume/cap.svg",
   title: "My education",
-  description: "Saya bersekolah di SMK Telkom Malang.",
+  description: "",
   items:[
     {
       institution: "SMK Telkom Malang",
       degree: "Web Development",
-      year: "2023 - Present",
+      year: "2022 - 2025",
+    },
+    {
+      institution: "Politeknik Negeri Malang",
+      degree: "Business Information System",
+      year: "Present - 2029",
     },
     
   ],

@@ -33,61 +33,14 @@ const projects = [
         name: "Talwind CSS",
       },
     ],
-    image: "/assets/work/image1.png",
+    image: "/assets/work/image.png",
     live: "https://nicolee.vercel.app",
     github: "https://github.com/Nico-LeeNH/portfolioweb",
   },
   {
     num: "02",
-    category: "MedTrack",
-    title: "project 1",
-    description:
-      "MedTrack berfungsi untuk memantau kesehatan pasien dengan menyediakan platform yang mudah digunakan dan intuitif.",
-    stack: [
-      { name: "Bootstrap" },
-      { name: "CSS" },
-      { name: "PHP" },
-      {
-        name: "Javascript",
-      },
-    ],
-    image: "/assets/work/MedShop.png",
-    live: "",
-    github:
-      "https://github.com/Nico-LeeNH/MedShop/tree/3a6e1f6354b66ec2f5591616f45ff7ce8b6ef4c7/Medshop/Medtrack",
-  },
-  {
-    num: "03",
-    category: "Sekolah Anak Saleh",
-    title: "project 1",
-    description:
-      "Project Yayasan Sekolah Anak Saleh berfungsi untuk memberikan berbagai informasi sekolah seperti ppdb, agenda, program, dll.",
-    stack: [
-      { name: "Wordpress" }
-      
-    ],
-    image: "/assets/work/MKKS.png",
-    live: "https://sekolahanaksaleh.sch.id/",
-    github: "",
-  },
-  {
-    num: "04",
-    category: "Perpustakaan",
-    title: "project 1",
-    description:
-      "Ini adalah project CRUD dan transaksi Perpustakaan",
-    stack: [
-      { name: "Vue.js" },
-      { name: "Laravel" },
-    ],
-    image: "/assets/work/image.png",
-    live: "",
-    github: "https://github.com/Nico-LeeNH/PerpusOnline.git",
-  },
-  {
-    num: "05",
     category: "E-REPOM",
-    title: "project 5",
+    title: "project 2",
     description:
       "Aplikasi E-REPOM memudahkan mahasiswa dalam mengajukan surat rekomendasi untuk penelitian, observasi, dan magang. Dengan sistem pengisian form yang sederhana dan efisien, mahasiswa dapat dengan cepat mengirimkan permohonan sesuai kebutuhan akademis dan profesional mereka.",
     stack: [
@@ -97,6 +50,22 @@ const projects = [
     image: "/assets/work/E-REPOM.jpeg",
     live: "",
     github: "https://github.com/ocin14/Aplikasi-Mahasiswa",
+  },
+  {
+    num: "03",
+    category: "FIT.AI",
+    title: "project 3",
+    description:
+      "Web aplikasi perencanaan nutrisi harian dan rekomendasi makanan berbasis AI. Rekomendasi makanan harian yang dipersonalisasi berdasarkan kebutuhan pengguna kalori, protein, lemak, karbohidrat, dan gula dengan memastikan variasi dan menghindari pengulangan makanan dalam satu minggu. Dengan menggunakan model machine learning, aplikasi ini menghasilkan rencana makan optimal yang terintegrasi dengan database makanan secara real-time.",
+    stack: [
+      { name: "Next.js" },
+      { name: "Express.js" },
+      { name: "PostgreSQL" },
+      { name: "TensorFlow" },
+    ],
+    image: "/assets/work/FIT.AI.png",
+    live: "",
+    github: "https://github.com/KALEOUUU/ml-food-recommendation",
   },
 ];
 

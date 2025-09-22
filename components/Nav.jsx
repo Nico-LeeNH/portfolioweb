@@ -24,10 +24,7 @@ const links = [
         name: "certificate",
         path: "/Certificate"
     },
-    // {
-    //     name: "contact",
-    //     path: "/contact"
-    // },
+
 ];
 
 

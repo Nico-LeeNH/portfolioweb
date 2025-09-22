@@ -7,7 +7,6 @@ const socials = [
     { icon: <FaGithub />, path: "https://github.com/Nico-LeeNH"},
     { icon: <FaLinkedin />, path: "https://www.linkedin.com/in/nico-lee-nathanael-handoko-a533b4288/"},
     { icon: <FaInstagram />, path: "https://www.instagram.com/nicoleenathanaelh/"},
-    { icon: <FaTwitter />, path: "https://x.com/LeeNh186723"},
 ];
 
 
