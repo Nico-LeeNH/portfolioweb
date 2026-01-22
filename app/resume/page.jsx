@@ -36,7 +36,7 @@ const about ={
     // },
     {
       fieldName: "Language",
-      fieldValue: "Indonesia, English, Chinese"
+      fieldValue: "Indonesia, English"
     }
    ]
 }
